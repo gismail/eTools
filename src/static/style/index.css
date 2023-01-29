@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* fallback for old browsers */
+  background: #6a11cb !important;
+  color: whitesmoke !important;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.fixed-header, .fixed-footer{
+  width: 100%;
+  position: fixed;        
+  background: #5126a4;
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header{
+  top: 0;
+  z-index: 3;
+}
+.fixed-footer{
+  bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.flex-container {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+
+.wrap { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}  
+.flex-item {
+  width: 24.5%;
+  margin: 0 0.25%;
+  display: inline-flex;
+}
+ul{
+  padding-inline-start: 0px;
+}
+a {
+  color: whitesmoke !important;
+  text-decoration: none !important;
+}
+a:hover{
+  color: #0F0B19 !important;
+  
+}
